@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="/src/style.css" rel="stylesheet">
+  <title>cnba</title>
+</head>
+
+<body class="flex flex-col h-screen">
+  <header class="bg-red-700 text-white italic text-5xl text-center">
+    CNBA
+  </header>
+
+  <main class="flex flex-1">
+    <div class="flex-2 bg-blue-700">
+      <button class="transition-transform active:translatey-1" id="clicker">
+        <p id="scoreDisplay">Clicks</p>
+      </button>
+    </div>
+
+    <div class="bg-amber-500 flex-1">
+      store
+      <button id="clicker" class="active:scale-95 transition-transform">
+        <img src="src/assets/Adobe Express - file (1).png" class="max-w-sm" alt="basketball">
+      </button>
+      <p id="display">
+        Score: 0
+      </p>
+
+      <hr>
+
+      <button id="upgradeOne">
+        <p id="upgradeOneCount">0 Refs</p>
+      </button>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
