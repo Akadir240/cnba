@@ -16,26 +16,30 @@
 
   <main class="flex flex-1">
     <div class="flex-2 bg-blue-700">
-      <button class="transition-transform active:translatey-1" id="clicker">
-        <p id="scoreDisplay">Clicks</p>
+      <button id="clicker" class="active:scale-95 transition-transform w-full h-full">
+        <p id="display"></p>
+        <img src="src/assets/Adobe Express - file (1).png" class="w-92 mx-auto" alt="basketball">
       </button>
     </div>
 
     <div class="bg-amber-500 flex-1">
-      store
-      <button id="clicker" class="active:scale-95 transition-transform">
-        <img src="src/assets/Adobe Express - file (1).png" class="max-w-sm" alt="basketball">
-      </button>
-      <p id="display">
-        Score: 0
-      </p>
+     <h1 style="text-align: center;"  class="text-5xl">Upgrade</h1>
+
 
       <hr>
 
-      <button id="upgradeOne">
-        <p id="upgradeOneCount">0 Refs</p>
-      </button>
+      <button class="flex transition-all text-white color bg-black items-center text-lg p-4 border active:scale-105 border-gray-700 active:bg-gray-800 rounded-2xl"  id="upgradeOne">
+         <img class="h-16 invert" src="/src/assets/Reff.png" alt="Reff">
+        <p id="upgradeOneCount">0 Refs </p>
+        <p id="">Cost:100 </p>
+        
+    </button>
     </div>
+
+     
+
+
+
     <script type="module" src="/src/main.js"></script>
 </body>
 
